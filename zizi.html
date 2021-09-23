@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valor absoluto y valor relativo</title>
+	<link rel="stylesheet" href="Proyecto de compu.css">
+</head>
+<body>
+<h1>Valor absoluto y valor relativo</h1>
+<button  onclick="valorabsoluto();">Valor absoluto</button>
+<button  onclick="valor2();">Valor relativo</button>
+<div id="mostrar"></div>
+<script type="text/javascript">
+                  function valorabsoluto(){
+                  var num1=parseInt(prompt("ingrese el primer numero: "));
+                  var num2=parseInt(prompt("ingrese el segundo numero: "));
+                  document.getElementById("mostrar").innerHTML="El valor absoluto de este numero es: "+Math.abs(num1)+"<br>";
+                  document.getElementById("mostrar").innerHTML+="El valor absoluto de este numero es: "+Math.abs(num2);
+            }
+             function valor2(){
+                  var num1=parseInt(prompt("ingrese el primer numero: "));
+                  var num2=parseInt(prompt("ingrese el segundo numero: "));
+                  var num3=parseInt(prompt("ingrese el tercer numero: "));
+                  var unidad=num3*1;
+                  var decena=num2*10;
+                  var centena=num1*100;
+                  document.getElementById("mostrar").innerHTML="El numero es: "+num1+num2+num3+"<br>";
+                  document.getElementById("mostrar").innerHTML+="El valor relativo del numero "+num1+ " es: "+centena+"<br>";
+                  document.getElementById("mostrar").innerHTML+="El valor relativo del numero "+num2+ " es: "+decena+"<br>";
+                  document.getElementById("mostrar").innerHTML+="El valor relativo del numero "+num3+ " es: "+unidad+"<br>";
+              }
+</script>
+<h2>
+<p>Nuestro sistema de numeración, además de ser decimal, es posicional</p>
+<p>Todas las cifras tienen dos valores: El absoluto y el relativo.</p>
+<p>Valor absoluto: Es el valor que adquiere el digito sin importar el lugar que ocupe, es el valor por si solo.</p><p>El valor absoluto es aquel que tiene un número independientemente del lugar que ocupe en las unidades, las decenas y las centenas.</p>
+<p>Valor relativo: Es el valor posicional, es decir, cada digito tiene un valor de acuerdo el lugar que ocupa en la cantidad. El valor relativo depende de la posición que ocupe en un número: unidades, decenas, centenas, etc.</p>
+</h2>
+<img src="Gatito 2.png" height="300px" width="300px"> <img src="valores si.jpg" height="300px" width="600px">
+</body>
+</html>

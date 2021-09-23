@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pagina matematica</title>
+	<link rel="stylesheet" href="Proyecto de compu.css">
+</head>
+<body>
+<header>
+	<center><nav class="navegacion">
+		<ul class="menu">
+			
+			<li><a href="#"onclick="operaciones1();">Suma</a></li>
+                  <li><a href="#"onclick="operaciones2();">Resta</a></li>
+                  <li><a href="#"onclick="operaciones3();">Multlipicacion</a></li>
+                  <li><a href="#"onclick="operaciones4();">Division</a></li>
+            <script type="text/javascript">
+             function operaciones1(){
+            	var num1= prompt('ingrese el primer numero: ');
+            	var num2= prompt('ingrese el segundo numero: ');
+            	var num3= prompt('ingrese el tercer numero: ');
+            	var num4= prompt('ingrese el cuarto numero: ');
+            	var suma=parseInt(num1)+parseInt(num2)+parseInt(num3)+parseInt(num4);
+            	document.getElementById("mostrar").innerHTML="La Suma de "+num1+'+'+num2+'+'+num3+'+'+num4+" es igual a:"+suma+"<br>";
+            } 			
+
+			
+			
+            function operaciones2(){
+            	var num1= prompt('ingrese el primer numero: ');
+            	var num2= prompt('ingrese el segundo numero: ');
+            	var num3= prompt('ingrese el tercer numero: ');
+            	var num4= prompt('ingrese el cuarto numero: ');
+            	var resta=parseInt(num1)-parseInt(num2)-parseInt(num3)-parseInt(num4);
+            	document.getElementById("mostrar").innerHTML="La Resta de "+num1+'-'+num2+'-'+num3+'-'+num4+" es igual a:"+resta+"<br>";
+            }	
+            		
+			
+			
+            function operaciones3(){
+            	var num1= prompt('ingrese el primer numero: ');
+            	var num2= prompt('ingrese el segundo numero: ');
+            	var num3= prompt('ingrese el tercer numero: ');
+            	var num4= prompt('ingrese el cuarto numero: ');
+            	var multiplicacion=parseInt(num1)*parseInt(num2)*parseInt(num3)*parseInt(num4);
+            	document.getElementById("mostrar").innerHTML="La Multiplicacion de "+num1+'*'+num2+'*'+num3+'*'+num4+" es igual a:"+multiplicacion+"<br>";
+            }	
+            	
+				
+					
+            function operaciones4(){
+            	var num1= prompt('ingrese el primer numero: ');
+            	var num2= prompt('ingrese el segundo numero: ');
+            	var num3= prompt('ingrese el tercer numero: ');
+            	var num4= prompt('ingrese el cuarto numero: ');
+            	var resta=parseInt(num1)/parseInt(num2)/parseInt(num3)/parseInt(num4);
+            	document.getElementById("mostrar").innerHTML="La Division de "+num1+'/'+num2+'/'+num3+'/'+num4+" es igual a:"+division+"<br>";
+            }	
+            </script>	
+				</li>
+                  
+                  <li><a href="file:///C:/Users/milyl/OneDrive/Escritorio/%F0%9F%92%99Programacio/Proyecto%20de%20Compu/Ecuaciones.html">Ecuaciones por metodo grafico</a></li>
+
+                  <li><a href="file:///C:/Users/milyl/OneDrive/Escritorio/%F0%9F%92%99Programacio/Proyecto%20de%20Compu/zizi.html">Valor absoluto y valor relativo</a></li>
+                  
+                  <li><a href="file:///C:/Users/milyl/OneDrive/Escritorio/%F0%9F%92%99Programacio/Proyecto%20de%20Compu/Binario.html">Sistemas posicionales y no posicionales</a></li>
+                 
+			</ul>
+	</nav></center>
+</header>
+
+<br>
+<br>
+<br>
+<br>
+<center><font color="black"><h1>Esta pagina admite un maximo de 4 digitos por operacion</h1>
+      <div id="mostrar"></div>
+	<p></p></font></center>
+
+<center><img src="gatito.png" height="300px" width="300px"></center>
+
+</body>
+</html>
